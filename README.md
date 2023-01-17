@@ -71,7 +71,7 @@ optional arguments:
   1. `<title>` is equal to Feed
   2. `<link>` is equal to Link
   3. `<lastBuildDate>` is equal to Last Build Date
-  4. `<pubDate>` is equal to Date 
+  4. `<pubDate>` is equal to Publish Date 
   5. `<language>` is equal to Language
   6. `<category>` `for category in categories` is equal to Categories: category1, category2
   7. `<managinEditor>` is equal to Editor
@@ -80,7 +80,7 @@ optional arguments:
 * For `<item>` element:
   1. `<title>` is equal to Title
   2. `<author>` is equal to Author
-  3. `<pubDate>` is equal to Date
+  3. `<pubDate>` is equal to Published
   4. `<link>` is equal to Link
   5. `<category>` is equal to Categories: category1, category2
   6. `<description>` is on a separate line without any name.
@@ -92,13 +92,13 @@ Link: https://news.yahoo.com/rss
 Description: Yahoo news description
 
 Title: Nestor heads into Georgia after tornados damage Florida
-Date: Sun, 20 Oct 2019 04:21:44 +0300
+Published: Sun, 20 Oct 2019 04:21:44 +0300
 Link: https://news.yahoo.com/wet-weekend-tropical-storm-warnings-131131925.html
 
 Nestor raced across Georgia as a post-tropical cyclone late Saturday, hours after the former tropical storm spawned a tornado that damaged homes and a school in central Florida while sparing areas of the Florida Panhandle devastated one year earlier by Hurricane Michael. The storm made landfall Saturday on St. Vincent Island, a nature preserve off Florida's northern Gulf Coast in a lightly populated area of the state, the National Hurricane Center said. Nestor was expected to bring 1 to 3 inches of rain to drought-stricken inland areas on its march across a swath of the U.S. Southeast... <--- !!! THIS IS DESCRIPTION !!!
 
 Title: Some Other Title
-Date: Sun, 20 Oct 2019 04:21:44 +0300
+Published: Sun, 20 Oct 2019 04:21:44 +0300
 Link: https://some.other.link/some-other-news
 
 
